@@ -4,20 +4,40 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title></title>
+	<style>
+		h1{
+			font-style:italic ;
+			color: lightblue;
+		}
+		em{
+			text-decoration: underline;
+		}
+		h2{
+			font-style: unset;
+			font-size: 12pt;
+		}
+		a{
+			font-style: oblique;
+			font-size: 12pt;
+		}
+		span{
+			color: orange;
+		}
+	</style>
 </head>
 <body>
 	<form>
 	<table style="border:3px #cccccc solid;" cellpadding="10" border=‘1’>
 		<tr>
 			<th colspan="3">
-				About--110306048
+				<h1><em>About--<span>110306048</span></em></h1>
 			</th>
 		</tr>
 		<tr>
 			<td rowspan="4">
 				<img src="422681.jpg" width="205" heught="167"><br>
 				<p>
-				personal photo
+				<h2>personal photo</h2>
 			</p>
 			</td>
 		</tr>
@@ -55,31 +75,31 @@
 		</tr>
 		<tr>
 			<td>
-				Hobby
+				<h2>Hobby</h2>
 			</td>
 			<td colspan="2">
-				<input type="checkbox" name="hobby" value="swimming">Swimming
-				<input type="checkbox" name="hobby" value="volleyball">Volleyball
-				<input type="checkbox" name="hobby" value="movie">Movie
-				<input type="checkbox" name="hobby" value="game">Game
-				<input type="checkbox" name="hobby" value="sleep">Sleep
+				<input type="checkbox" name="hobby" value="swimming"><a>Swimming</a>
+				<input type="checkbox" name="hobby" value="volleyball"><a>Volleyball</a>
+				<input type="checkbox" name="hobby" value="movie"><a>Movie</a>
+				<input type="checkbox" name="hobby" value="game"><a>Game</a>
+				<input type="checkbox" name="hobby" value="sleep"><a>Sleep</a>
 			</td>
 		</tr>
 		<tr>
 			<td>
-				Skill
+				<h2>Skill</h2>
 			</td>
 			<td colspan="2">
-				<input type="checkbox" name="skill" value="java">Java
-				<input type="checkbox" name="skill" value="html">HTML
-				<input type="checkbox" name="skill" value="python">Python
-				<input type="checkbox" name="skill" value="microsoft office">Microsoft Office
-				<input type="checkbox" name="skill" value="premiere">Premiere
+				<input type="checkbox" name="skill" value="java"><a>Java</a>
+				<input type="checkbox" name="skill" value="html"><a>HTML</a>
+				<input type="checkbox" name="skill" value="python"><a>Python</a>
+				<input type="checkbox" name="skill" value="microsoft office"><a>Microsoft Office</a>
+				<input type="checkbox" name="skill" value="premiere"><a>Premiere</a>
 			</td>
 		</tr>
 		<tr>
 			<td>
-				Say Something
+				<h2>Say Something</h2>
 			</td>
 			<td colspan="2">
 				<input type="text" name="say something" placeholder="Say something here.">
